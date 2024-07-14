@@ -8,7 +8,6 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { ConfigService } from '@nestjs/config';
 import { UserService } from './user.service';
 import { RegisterUserDto } from './dto/RegisterUserDto';
 import { LoginUserDto } from './dto/LoginUserDto';
